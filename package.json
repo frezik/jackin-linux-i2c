@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/frezik/jackin-linux-gpio#readme",
   "dependencies": {
-    "jackin": "^0.2.0",
-    "i2c": "^0.2.3"
+    "i2c-bus": "^5.1.0",
+    "jackin": "^0.2.0"
   },
   "devDependencies": {
     "@types/node": "^13.5.0",
