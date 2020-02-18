@@ -1,0 +1,35 @@
+{
+  "name": "jackin-linux-i2c",
+  "version": "0.1.0",
+  "description": "Jack in bindings to Linux-based I²C",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tap --ts test/**/*.ts",
+    "prepack": "rm -rf dist && tsc && npx typedoc --out dist/doc src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frezik/jackin-linux-gpio.git"
+  },
+  "keywords": [
+    "hardware",
+    "raspberry",
+    "pi",
+    "linux",
+    "gpio"
+  ],
+  "author": "Timm Murray <tmurray@wumpus-cave.net>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/frezik/jackin-linux-gpio/issues"
+  },
+  "homepage": "https://github.com/frezik/jackin-linux-gpio#readme",
+  "dependencies": {
+    "jackin": "^0.2.0",
+    "i2c": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "tap": "^14.10.6"
+  }
+}
